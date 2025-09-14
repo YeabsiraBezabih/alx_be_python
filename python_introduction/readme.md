@@ -121,6 +121,30 @@ How old are you? 30
 In 2050, you will be 57 years old.
 ```
 
+### 5. Personal Finance Calculator #advanced
+**File:** `finance_calculator.py`
+
+**Objective:** Use user input, variables, and arithmetic operations to calculate monthly savings and project future savings with interest.
+
+**Description:**
+- Prompt user for monthly income and expenses
+- Calculate monthly savings by subtracting expenses from income
+- Project annual savings with 5% interest rate
+- Display monthly savings and projected annual savings
+
+**Usage:**
+```bash
+python3 finance_calculator.py
+```
+
+**Example Interaction:**
+```
+Enter your monthly income: 5000
+Enter your total monthly expenses: 4000
+Your monthly savings are $1000.
+Projected savings after one year, with interest, is: $12600.
+```
+
 ## Python Basics Covered
 
 ### Variables and Data Types
@@ -161,7 +185,10 @@ In 2050, you will be 57 years old.
    cd python_introduction
    python3 basic_operations.py
    python3 simple_interest.py
-   # ... and so on
+   python3 rectangle_area.py
+   python3 hours_to_seconds.py
+   python3 future_age_calculator.py
+   python3 finance_calculator.py
    ```
 
 ## Learning Outcomes
@@ -192,7 +219,7 @@ After completing this project, you will have:
 
 - **GitHub Repository:** alx_be_python
 - **Directory:** python_introduction
-- **Files:** basic_operations.py, simple_interest.py, rectangle_area.py, hours_to_seconds.py, future_age_calculator.py
+- **Files:** basic_operations.py, simple_interest.py, rectangle_area.py, hours_to_seconds.py, future_age_calculator.py, finance_calculator.py
 
 ## Next Steps
 
